@@ -1,0 +1,102 @@
+body {
+	margin: 0;
+	background-image: url('Image/fon.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: whitesmoke;
+	font-family: Segoe UI;
+	font-size: 32px;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 50px;
+}
+
+header p {
+	align-self: center;
+}
+
+header div {
+	display: flex;
+	align-items: center;
+}
+
+header div img {
+	margin-left: 10px;
+	width: 40px;
+	height: 40px;
+}
+
+.imageWin{
+	margin-left: 45px;
+}
+
+.row{
+	display: flex;
+	margin-bottom: 10px;
+	align-items: flex-start;/*выравниваем элементы по верхнему краю*/
+}
+
+.row > img:last-child{ /*Убираем отступ с правого края*/
+	margin-right: 0;
+}
+
+.space{
+	display: flex;
+	margin-left: 30px;
+}
+
+.bigImage{
+	width: 180px;
+	height: 85px;
+	margin-right: 10px;
+}
+
+.smallImage{
+	width: 85px;
+	height: 85px;
+	margin-right: 10px;
+}
+
+@media (max-width: 685px){
+	body {
+	font-size: 24px;
+	}
+
+	.imageWin{
+	margin-left: 20px;
+	}
+
+.row{
+	display: flex;
+	margin-bottom: 5px;
+	align-items: flex-start;/*выравниваем элементы по верхнему краю*/
+	}
+
+.row > img:last-child{ /*Убираем отступ с правого края*/
+	margin-right: 0;
+	}
+
+.space{
+	display: flex;
+	margin-left: 20px;
+	}
+
+.bigImage{
+	width: 100px;
+	height: 45px;
+	margin-right: 10px;
+	}
+
+.smallImage{
+	width: 45px;
+	height: 45px;
+	margin-right: 10px;
+	}
+}
+
+
